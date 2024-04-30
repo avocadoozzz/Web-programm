@@ -3,7 +3,7 @@
 Buchmeleva Anastasia  
 student of group ASOIR-221
 
-![failed](veb\images\photo.png)
+![failed](photo.png)
 
 Contacts:  
 tepephone: +375447994325  
