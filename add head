@@ -11,3 +11,17 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <meta charset="UTF-8" />
 </head>
+<body>
+  <header>
+    <img src="Framemaven.png" alt="maven" class="logo" />
+    <div class="headerp">
+      <p class="paragraph-1">Employers</p>
+      <p class="paragraph-1">Health Plans</p>
+      <p class="paragraph-1">Consultants</p>
+      <p class="paragraph-1">Resourses</p>
+    </div>
+
+    <button class="demo-request">Demo request</button>
+    <p class="paragraph-2">Individuals</p>
+    <button class="login">Login</button>
+  </header>
