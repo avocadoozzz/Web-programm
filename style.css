@@ -236,5 +236,389 @@ header {
     height: 25em;
     border-radius: 2px;
   }
-   
+  .para1 {
+    width: 13em;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 1.2em;
+    padding-top: 11%;
+    color: #ffffff;
+  }
+  .para2 {
+    width: 24.5em;
+    /* Maven connected her with a high-risk OB-GYN to help navigate her preeclampsia, and a certified doula helped create a birth plan to ease Shayna’s anxiety. */
+  
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: -3%;
+    /* or 150% */
+  
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .para3 {
+    /* 1 of 4 */
+  
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.71em;
+    margin-top: 3em;
+    /* identical to box height, or 171% */
+  
+    color: #ffffff;
+  }
+  .pmargin {
+    margin-left: 8%;
+  }
+  .changer {
+    position: absolute;
+    margin-top: -26.5em;
+    margin-left: 10em;
+  }
+  .slide4 {
+    height: 39.56em;
+  }
+  .figure2 {
+    position: relative;
+    top: 5%;
+  }
+  .slide4textbox {
+    position: relative;
+    width: 40%;
+    height: 15em;
+  }
+  
+  .H1 {
+    margin-bottom: -0.5em;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    color: #263633;
+  }
+  .H2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 5%;
+    color: #64726f;
+  }
+  
+  .picture2 {
+    position: relative;
+    left: 52%;
+    bottom: 125%;
+  }
+  
+  .slide4box {
+    width: 74em;
+    height: 14.5em;
+    border-bottom: 1px solid lightgray;
+    margin: -4em auto;
+  }
+  .statistics {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    margin-left: 7.5em;
+    margin-right: 8em;
+    width: 83%;
+  }
+  
+  .stat {
+    text-align: left;
+    width: 9em;
+    margin-top: 6.5em;
+  }
+  .stat h1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #00856f;
+  }
+  .stat h2 {
+    margin-top: -1em;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #00856f;
+  }
+  .slide5 {
+    position: relative;
+  }
+  .slide5box1 {
+    margin: 6.5em auto;
+    width: 35em;
+  }
+  
+  .slide5box1h1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #263633;
+  }
+  .slide5box1h2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #64726f;
+  }
+  .slide5box2 {
+    width: 73em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .photo {
+    text-align: center;
+  }
+  
+  .photoh1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  
+    text-align: center;
+  
+    color: #263633;
+  }
+  .photoh2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: -0.5em;
+    text-align: center;
+  
+    color: #64726f;
+  }
+  .slide6 {
+    height: 83.5em;
+    background-color: #f1f7f6;
+    position: relative;
+    margin-top: -4em;
+  }
+  .slide6box {
+    margin: 3em auto;
+  
+    text-align: center;
+  }
+  .slide6p1 {
+    padding-top: 5.5em;
+  }
+  
+  .slide6p1h1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #263633;
+  }
+  .slide6p1h2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #64726f;
+  }
+  .slide6container {
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: space-between;
+  
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+  }
+  .containerbox {
+    width: 22.5em;
+    height: 14.5em;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 2;
+  }
+  
+  .containerboxh1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #263633;
+  }
+  .containerboxh2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #64726f;
+  }
+  .greentext {
+    margin-top: -9em;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #00856f;
+  }
+  .pfirst {
+    /* “Our employees are so very appreciative of this program. I’ve had people call me and say, “I couldn’t have come back to work without the support through Maven and SoFi.” */
+  
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    margin-bottom: 0em;
+    color: #263633;
+  }
+  .slide6pic {
+    margin-top: 4em;
+  }
+  .psecond {
+    /* Debbie Westover, Senior Benefits Manager at SoFi */
+  
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    text-align: center;
+  
+    color: #64726f;
+  }
+  .pthird {
+    margin: 0 auto;
+    /* Read the case study */
+    border-bottom: 1px solid black;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    width: 10em;
+    color: #263633;
+  }
+  
+  .featuredin {
+    height: 16em;
+    opacity: 1;
+  }
+  
+  .featured-in-paragraph {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 4.5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #64726f;
+  }
+  .companies {
+    display: flex;
+    justify-content: space-between;
+  
+    margin-top: 0.5em;
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+  }
+  .company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .slide7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide7box {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .photo-and-paragraph {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 5em;
+  }
+  
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4em;
+    margin-top: 1em;
+  }
+  .slide7h1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #263633;
+  }
+  .slide7h2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+  
+    color: #64726f;
+  }
+  .ourawards {
+    margin-top: 4.5em;
+    text-align: center;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #64726f;
+  }
+  
   
