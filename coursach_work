@@ -353,4 +353,42 @@
           </div>
         </div>
       </main>
-    
+      <footer>
+        <div class="footer-container1">
+          <div class="for-business">
+            <h1 class="footer-h1">For Business</h1>
+            <h2 class="footer-h2">Employers</h2>
+            <h2 class="footer-h2">Health plans</h2>
+            <h2 class="footer-h2">Consultants</h2>
+          </div>
+          <div class="join-maven">
+            <h1 class="footer-h1">Join Maven</h1>
+            <h2 class="footer-h2">Individuals</h2>
+            <h2 class="footer-h2">Become a Maven Provider</h2>
+            <h2 class="footer-h2">Join Our Community</h2>
+          </div>
+          <div class="resourses">
+            <h1 class="footer-h1">Resourses</h1>
+            <h2 class="footer-h2">Resourse Center</h2>
+            <h2 class="footer-h2">Blog</h2>
+            <h2 class="footer-h2">COVID-19</h2>
+          </div>
+          <div class="footer-company">
+            <h1 class="footer-h1">Company</h1>
+            <h2 class="footer-h2">About</h2>
+            <h2 class="footer-h2">Press</h2>
+            <h2 class="footer-h2">Careers</h2>
+            <h2 class="footer-h2">Contact</h2>
+          </div>
+          <div class="we-are-hiring">
+            <img src="Framehiring.png" alt="pic" />
+          </div>
+          <div class="find-us-on">
+            <h1 class="footer-h1">Find us on</h1>
+            <img src="Framecontacts.png" alt="contacts" style="margin-top: 0.5em" />
+            <img src="Frameappstore.png" alt="contacts" style="margin-top: 1.5em" />
+            <img src="Framegoogle.png" alt="contacts" style="margin-top: 0.5em" />
+          </div>
+        </div>
+      </footer>
+    </body>
