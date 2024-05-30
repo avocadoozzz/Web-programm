@@ -12,4 +12,21 @@ header {
     flex-direction: row;
     justify-content: space-between;
   }
+  .paragraph-1 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    font-size: 1em;
+    letter-spacing: 0em;
+    font-family: "Roboto", sans-serif;
+  }
+  .paragraph-2 {
+    border-left: 1px solid lightgray;
+    margin-left: 1.5em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    letter-spacing: 0em;
+    font-family: "Roboto", sans-serif;
+  }  
   
