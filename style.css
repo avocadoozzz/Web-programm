@@ -28,5 +28,48 @@ header {
     font-size: 1em;
     letter-spacing: 0em;
     font-family: "Roboto", sans-serif;
-  }  
+  } 
+  .demo-request {
+    font-family: "Roboto", sans-serif;
+    margin-left: 3%;
+    letter-spacing: 0.04em;
+    padding: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 2.8em;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    background-color: #00856f;
+    border: none;
+    border-radius: 0.25em;
+  }
+  .login {
+    outline: none;
+    margin-left: 3em;
+    padding: 1em;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    font-size: 0.9em;
+    color: #00856f;
+    background-color: #dce9e2;
+    border: none;
+    border-radius: 7%;
+    font-family: "Roboto", sans-serif;
+  }
+  .demo-request:hover {
+    background-color: #bde4b3;
+  }
+  
+  .slide1 {
+    background-color: #f1f7f6;
+  
+    height: 39.5em;
+  }
+  .slide1picture {
+    bottom: 32%;
+    left: 63%;
+    position: relative;
+    z-index: 1;
+  }
+   
   
