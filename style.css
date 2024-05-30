@@ -620,5 +620,241 @@ header {
     text-transform: uppercase;
     color: #64726f;
   }
+  .awards {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+  }
+  .finally {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    margin-top: 6.5em;
+    height: 35em;
+  }
+  .finally-paragraph-box {
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    bottom: 31em;
+    left: 40.5em;
+    z-index: 2;
+    width: 30em;
+    height: 24.5em;
+    padding-top: 1.8em;
+  }
+  .finally-paragraph {
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .whichbest {
+    position: relative;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid lightgray;
+    color: #64726f;
+    border-radius: 4px;
+    padding: 1.2em;
+    margin-left: 0.3em;
+  }
+  .get-started {
+    text-align: center;
+    margin-left: 0.3em;
+    border: none;
+    background-color: #00856f;
+    color: white;
+    width: 21em;
+    height: 3.3em;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.04px;
+    opacity: 1;
+  }
   
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-container1 {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 7.5em;
+    display: flex;
+  }
+  
+  .join-maven {
+    margin-left: 7.5em;
+  }
+  .resourses {
+    margin-left: 6.5em;
+  }
+  .footer-company {
+    margin-left: 7em;
+  }
+  .we-are-hiring {
+    margin-top: 7.6em;
+  }
+  .find-us-on {
+    margin-left: 7em;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-h1 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #263633;
+  }
+  .footer-h2 {
+    font-family: sans-serif, "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #64726f;
+  }
+  .swiper {
+    margin-top: 5em;
+    width: 600px;
+    height: 300px;
+  }
+  .swiper-slide {
+    position: relative;
+  }
+  
+  .swiper-slide img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @media only screen and (max-width: 768px) {
+    header {
+      background-color: lightblue;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 0em;
+    }
+    .slide1picture {
+      display: none;
+    }
+    .textbox {
+      bottom: 0%;
+      margin-left: 0em;
+      width: 45.5em;
+      top: 40%;
+    }
+    .container {
+      padding-right: 0em;
+      padding-left: 0em;
+    }
+    .container2 {
+      padding-left: 0em;
+      padding-right: 0em;
+    }
+    .first {
+      text-align: center;
+    }
+    .second {
+      text-align: center;
+    }
+    .learn-more {
+      margin-left: 3em;
+    }
+    .topic {
+      padding-left: 0em;
+      padding-right: 0em;
+    }
+    .slide3 {
+      display: none;
+    }
+    .picture2 {
+      display: none;
+    }
+    .slide4box {
+      width: auto;
+    }
+    .H1 br {
+      display: none;
+    }
+    .H1 {
+      width: 15em;
+    }
+    .statistics {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .phonephoto {
+      display: none;
+    }
+    .photo img {
+      margin: 0em;
+      padding-top: 0em;
+    }
+    .slide5box2 {
+      width: auto;
+    }
+    .slide6container {
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+    .krug {
+      display: none;
+    }
+    .containerbox {
+      width: auto;
+    }
+    .containerbox br {
+      display: none;
+    }
+    .greentext {
+      margin-top: 1em;
+    }
+    .slide6pic {
+      margin-top: 9em;
+    }
+    .companies {
+      flex-wrap: wrap;
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+    .photo-and-paragraph img {
+      display: none;
+    }
+    .paragraph br {
+      display: none;
+    }
+    .awards {
+      margin-left: 0em;
+      margin-right: 0em;
+      flex-wrap: wrap;
+    }
+    .finally img {
+      display: none;
+    }
+    .finally-paragraph-box {
+      position: static;
+    }
+    .footer-container1 {
+      flex-wrap: wrap;
+      margin-top: 0em;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+    }
+  }
   
