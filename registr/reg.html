@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="../general/rega.css">
+</head>
+<body>
+  <a class="ah1" href="../glav/index.html">Register</a>
+  <form id="registerForm">
+    <label for="phone">Phone:</label>
+    <input type="text" id="phone" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" required>
+    <label for="nickname">Nickname:</label>
+    <input type="text" id="nickname" readonly>
+    <button type="button" id="generateNickname">Generate Nickname</button>
+    <label for="passwordChoice">Password:</label>
+    <select id="passwordChoice">
+      <option value="manual">Manual</option>
+      <option value="auto">Auto</option>
+    </select>
+    <div id="manualPasswordFields">
+      <input type="password" id="password">
+      <input type="password" id="confirmPassword">
+    </div>
+    <label for="role">Role:</label>
+    <select id="role">
+      <option value="user">User</option>
+      <option value="admin">Admin</option>
+    </select>
+    <label for="agreement">Agree to User Agreement</label>
+    <input type="checkbox" id="agreement" required>
+    <button type="submit">Register</button>
+  </form>
+  <div id="message"></div>
+  <script src="../general/scripts.js"></script>
+</body>
+</html>

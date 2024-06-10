@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <title>MAVEN</title>
 
@@ -9,6 +10,7 @@
   />
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
   <meta charset="UTF-8" />
 </head>
 <body>
@@ -17,13 +19,16 @@
     <div class="headerp">
       <p class="paragraph-1">Employers</p>
       <p class="paragraph-1">Health Plans</p>
+      <p class="menus"></p>
       <p class="paragraph-1">Consultants</p>
       <p class="paragraph-1">Resourses</p>
+      <p class="reserv"></p>
     </div>
-
-    <button class="demo-request">Demo request</button>
-    <p class="paragraph-2">Individuals</p>
-    <button class="login">Login</button>
+    <button class="block-sign" id="login">Login</button>
+    <button class="block-sign" id="languageButton" onclick="toggleLanguage()">English</button>
+    <button class="block-sign" id="themeButton" onclick="toggleTheme()">Переключить тему</button>
+    <span id="usernameDisplay" style="display: none;"></span>
+    <button class="block-sign" id="logout" style="display: none;">Logout</button>
   </header>
   <main>
     <div class="slide1">
