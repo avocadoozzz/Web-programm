@@ -1,3 +1,18 @@
+body{
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  flex-direction: column;
+  background-color: #FAF5E5;
+}
+body.dark {
+  background-color: #0e233abb; 
+  color: #fff;
+}
+body.dark footer {
+  background-color: #0e233abb; 
+  color: #fff;
+}
 header {
   display: flex;
   justify-content: flex-start;
@@ -16,6 +31,7 @@ header {
   margin-left: 1.5em;
   margin-right: 1.5em;
   font-size: 1em;
+  text-decoration: none;
   letter-spacing: 0em;
   font-family: "Roboto", sans-serif;
 }

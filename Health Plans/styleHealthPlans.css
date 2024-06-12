@@ -1,20 +1,33 @@
 body{
-    display: flex;
-    gap: 50px;
     margin: 0;
-    flex-direction: column;
     background-color: #FAF5E5;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
 }
 body.dark {
     background-color: #1a0e09bb; 
     color: #fff;
   }
-  body.dark footer {
-    background-color: #191b79; 
+  .ah1a{
+    font-size: 2em; 
+    font-weight: bold; 
+    display: block; 
+    margin-top: 0.67em; 
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
     color: #fff;
-  }
+}
+.block-sign{
+    margin-left: 33px;
+    padding: 0.5px 11px;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+}
 header{
-    background-image: url("../images/Frameslide7p1.png");
+    background-image: url("../general/image/backmenu.png");
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,9 +35,10 @@ header{
     gap: 30px;
 }
 header h1{
-    color: #FFFF;
-    font-family: Roboto;
-    font-size: 64px;
+    color: #FAF5E5;
+    font-size: 200%;
+    margin: 0;
+    opacity: 0;
     animation: fadeIn 1s forwards;
 }
 @keyframes fadeIn {
@@ -63,100 +77,120 @@ header h1{
   #themeButton:active {
     transform: scale(0.9);
   }
-main{
-    flex-direction: column;
+.menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
-.Employerslist{
+.tothecompany{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     flex-direction: column;
-    gap: 30px;
+}
+.tothecompany h2{
+position: relative;
+font-size: 40px;
+}
+.tothecompany h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px; 
+    background-color: #0000004d; 
+
+}
+.positionlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
     flex-wrap: wrap;
+    gap: 20px;
 }
-.Employerslist h2{
-    position: relative;
-    font-size: 40px;
-    }
-    .Employerslist h2::after {
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        width: 100%;
-        height: 3px; 
-        background-color: #0000004d; 
-    
-    }
-    .Employersblocki{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 30px;
-        flex-wrap: wrap;
-    }
-.Employers{
+.position{
     display: flex;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 10px;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
     border: 2px solid black;
-    padding: 10px;
-    width: 600px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
+    width: 338px;
 }
-.wihi{
-  width: 300px;
-  height: 198px;  
+.wihe{
+    width: 97px;
+    height: 86px;
 }
-.text{
+.companyimages1{
+    content: url("../general/image/1pos.png");
+}
+.companyimages2{
+    content: url("../general/image/2pos.png");
+}
+.companyimages3{
+    content: url("../general/image/3pos.png");
+}
+.companyimages4{
+    content: url("../general/image/4pos.png");
+}
+.companyimages5{
+    content: url("../general/image/5pos.png");
+}
+.companyimages6{
+    content: url("../general/image/6pos.png");
+}
+.textposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.nameposition{
+    position: relative;
+    width: 100%;
+}
+.nameposition::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px; 
+    background-color: #0000004d; 
+
+}
+.countbuy{
+    width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
-}
-.nametext{
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-}
-.VRACH1{
-    content: url("../image/VRACH1.png");
-}
-.VRACH2{
-    content: url("../image/VRACH2.png");
-}
-.VRACH3{
-    content: url("../image/VRACH3.png");
-}
-.VRACH4{
-    content: url("../image/VRACH4.png");
-}
-.VRACH5{
-    content: url("../image/VRACH5.png");
-}
-.VRACH6{
-    content: url("../image/VRACH6.png");
-}
-.VRACH7{
-    content: url("../image/VRACH7.png");
+    gap: 170px;
 }
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: #4f58b9;
+    background-color: #464eee;
     padding-bottom: 6px;
     width: 100%;
-    text-decoration-color: #FFFFFF;
 }
+body.dark footer {
+    background-color: #352c18; 
+    color: #fff;
+  }
 .imgfooter{
-    content: url("../image/Framemaven.png");
+    content: url("../image/Frameslide7p1.png");
     margin-top: 36px;
 }
 body.dark .imgfooter{
@@ -188,7 +222,6 @@ body.dark .imgfooter{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    text-decoration-color: #FFFFFF;
 }
 .textcontactus a{
     text-decoration: none;
@@ -212,23 +245,6 @@ body.dark .imgfooter{
     align-items: start;
     flex-direction: column;
 }
-.ah1a{
-    font-size: 2em; 
-    font-weight: bold; 
-    display: block; 
-    margin-top: 0.67em; 
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    color: #fff;
-}
-.block-sign{
-    margin-left: 33px;
-    padding: 0.5px 11px;
-    border: 0.5px solid #FFFFFF;
-    border-radius: 9px;
-    background-color: #FFFFFF;
-}
 .downfooter{
     display: flex;
     justify-content: center;
@@ -244,9 +260,6 @@ body.dark .imgfooter{
     .downfooter{
         flex-direction: column;
         gap: 15px;
-    }
-    .Employers{
-        width: 500px;
     }
     body {
         margin: 0;
@@ -325,21 +338,14 @@ body.dark .imgfooter{
         background-color: #fff;
       }
 }
-@media (max-width: 540px) {
-    .Employers{
-        width: 400px;
-    }
+@media (max-width: 380px) {
+.position{
+    width: 310px;
 }
-@media (max-width: 430px) {
-    .Employers{
-        width: 310px;
-    }
-    .imgfooter{
-        display: none;
-    }
+.countbuy{
+    gap: 140px;
 }
-@media (max-width: 340px) {
-    .Employers{
-        width: 290px;
-    }
+.imgfooter{
+    display: none;
+}
 }

@@ -1,15 +1,4 @@
-const swiper = new Swiper(".swiper", {
-    // Optional parameters
-    direction: "horizontal",
-    loop: true,
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-  var themeButton = document.getElementById("themeButton");
+var themeButton = document.getElementById("themeButton");
   var body = document.body;
 
 function toggleTheme() {
