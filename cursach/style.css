@@ -1,3 +1,6 @@
+a {
+  text-decoration: none;
+}
 body{
   display: flex;
   gap: 50px;
@@ -792,6 +795,7 @@ footer {
     text-align: center;
   }
   .learn-more {
+
     margin-left: 3em;
   }
   .topic {

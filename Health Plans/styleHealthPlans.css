@@ -27,7 +27,7 @@ body.dark {
     background-color: #FFFFFF;
 }
 header{
-    background-image: url("../general/image/backmenu.png");
+    background-image: url("../images/image3.png");
     width: 100%;
     display: flex;
     align-items: center;
@@ -124,28 +124,6 @@ font-size: 40px;
     padding: 0px 10px 0px 10px;
     gap: 10px;
     width: 338px;
-}
-.wihe{
-    width: 97px;
-    height: 86px;
-}
-.companyimages1{
-    content: url("../general/image/1pos.png");
-}
-.companyimages2{
-    content: url("../general/image/2pos.png");
-}
-.companyimages3{
-    content: url("../general/image/3pos.png");
-}
-.companyimages4{
-    content: url("../general/image/4pos.png");
-}
-.companyimages5{
-    content: url("../general/image/5pos.png");
-}
-.companyimages6{
-    content: url("../general/image/6pos.png");
 }
 .textposition{
     display: flex;
