@@ -1,9 +1,9 @@
 {
     "en": {
-        "paragraph-1": "Employers",
-        "paragraph-1": "Health Plans",
-        "paragraph-1": "Consultants",
-        "paragraph-1": "Resourses",
+        "paragraph-12": "Employers",
+        "paragraph-2": "Health Plans",
+        "paragraph-3": "Consultants",
+        "paragraph-4": "Resourses",
         "thc": "Health Plans",
         "fisch": "Initial appointment of an obstetrician-gynecologist of the highest category",
         "fisch1": "(examination, consultation)",
@@ -75,10 +75,10 @@
         "translateButton": "EN"
     },
     "ru": {
-        "paragraph-1": "Работники",
-        "paragraph-1": "Планы медицинского страхования",
-        "paragraph-1": "Консультанты",
-        "paragraph-1": "Ресурсы",
+        "paragraph-12": "Работники",
+        "paragraph-2": "Планы медицинского страхования",
+        "paragraph-3": "Консультанты",
+        "paragraph-4": "Ресурсы",
         "thc": "Планы медицинского обслуживания",
         "fisch": "Первичный прием акушера-гинеколога высшей категории",
         "fisch1": "(осмотр, консультация)",
