@@ -243,8 +243,55 @@ body.dark .imgfooter{
         margin: 0;
         font-family: Arial, sans-serif;
         overflow-x: hidden;
+        background-color: #FAF5E5;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
       }
       
+      .positionlist {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .contactus {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+      margin-left: -23em;
+  }
+
+  .opening {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: start; */
+    flex-direction: row;
+    margin-left: -23em;
+  }
+
+  .socials {
+    margin-left: -22.9em;
+  }
+
+  .downfooter {
+    margin-left: -22.5em;
+}
+
+.textfooter {
+  display: flex;
+  gap: 35px;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: -26.5em;
+}
       .burger-menu {
         width: 30px;
         height: 21px;
@@ -265,7 +312,13 @@ body.dark .imgfooter{
         background-color: #333;
         transition: all 0.3s ease-in-out;
       }
-      
+      .headerp {
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
       .header-block1 {
         display: none;
         position: fixed;
@@ -316,14 +369,40 @@ body.dark .imgfooter{
         background-color: #fff;
       }
 }
-@media (max-width: 380px) {
-.position{
-    width: 310px;
-}
+@media (max-width: 320px) {
+    .position {
+        width: 280px;
+    }
 .countbuy{
-    gap: 140px;
+    gap: 13px;
 }
-.imgfooter{
-    display: none;
+.contactus {
+  /* display: flex; */
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-left: -2em;
 }
+
+.textfooter {
+  display: flex;
+  gap: 35px;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.opening {
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 0em;
+    }
+.downfooter {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  }
 }

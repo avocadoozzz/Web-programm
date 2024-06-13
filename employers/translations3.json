@@ -1,9 +1,9 @@
 {
     "en": {
-        "paragraph-1": "Employers",
-        "paragraph-1": "Health Plans",
-        "paragraph-1": "Consultants",
-        "paragraph-1": "Resourses",
+        "paragraph-12": "Employers",
+        "paragraph-2": "Health Plans",
+        "paragraph-3": "Consultants",
+        "paragraph-4": "Resourses",
         "Employers": "EMPLOYERS",
         "Employers": "List of Employers",
         "VRACH1": "Ophthalmologist, second qualification category. Adult admission (18+).",
@@ -31,10 +31,10 @@
         "translateButton": "EN"
     },
     "ru": {
-        "paragraph-1": "Работники",
-        "paragraph-1": "Планы медицинского страхования",
-        "paragraph-1": "Консультанты",
-        "paragraph-1": "Ресурсы",
+        "paragraph-12": "Работники",
+        "paragraph-2": "Планы медицинского страхования",
+        "paragraph-3": "Консультанты",
+        "paragraph-4": "Ресурсы",
         "Employers": "РАБОТНИКИ",
         "Employers": "Список работников",
         "VRACH1": "Врач-офтальмолог второй квалификационной категории. Прием взрослых (18+).",
