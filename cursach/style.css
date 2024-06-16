@@ -947,14 +947,15 @@ a {
   text-decoration: none;
   color:black;
 }
-
+html{
+  width: browser;
+}
 header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   position: relative;
   margin-left: 3%;
-  width: max-content;
 }
 .headerp {
   margin-left: 11em;
@@ -972,7 +973,7 @@ header {
       justify-content: space-between;
       position: static;
       margin-left: 7.5em;
-      margin-right: 35em;
+      margin-right: 40em;
       width: 104%;
 }
 body.dark {
@@ -1723,7 +1724,6 @@ margin-left: 10em;
     display: flex;
     flex-wrap: wrap;
     margin-left: 0em;
-    width: max-content;
   }
   .slide1picture {
     display: none;
@@ -1832,4 +1832,4 @@ margin-left: 10em;
     margin-right: auto;
     justify-content: center;
   }
-} 
+ }  
