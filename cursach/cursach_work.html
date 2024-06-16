@@ -14,7 +14,54 @@
   <meta charset="UTF-8" />
 </head>
 <body>
+
   <header>
+    <img src="../images/Framemaven.png" alt="maven" class="logo" />
+    <div class="burger-menu open" id="burgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    <div class="header-block1" id="headerBlock">
+        <nav class="header-nav">
+            <a href="../employers/employers.html" id="paragraph-12">Employers</a>
+            <a href="../Heal/HealthPlans.html" ,="" id="paragraph-2">Health Plans</a>
+            <a href="#honest" id="paragraph-3">Consultants</a>
+            <a href="#diners" id="paragraph-4">Resourses</a>
+            <form action="../authorization/regauto.html" target="_blank">
+                <button class="block-sign" id="login">Login</button>
+              </form>
+             <form action="../registr/reg.html" target="_blank">
+                <button class="block-sign" id="Register">Register</button>
+            </form>
+            <button class="block-sign" id="languageButton" onclick="toggleLanguage()">English</button>
+            <button class="block-sign" id="themeButton" onclick="toggleTheme()">Switch topic</button>
+            <span id="usernameDisplay" style="display: none;"></span>
+            <button class="block-sign" id="logout" style="display: none;">Logout</button>
+        </nav>
+    </div>
+</header>
+-------------------------------
+    <div class="header-block1 open" id="headerBlock">
+      <nav class="header-nav">
+          <a href="#place" id="home">HOME</a>
+          <a href="#gheter" id="about">ABOUT US</a>
+          <a href="#themenu" id="menus">MENU</a>
+          <a href="#honest" id="drinkmenu">DRINKS MENU</a>
+          <a href="#diners" id="contact">CONTACTS</a>
+          <a href="#neigh" id="vauncher">GIFT VOUCHERS</a>
+          <a href="#bookin" id="reserv">RESERVATION</a>
+          <button class="block-sign" id="languageButton" onclick="toggleLanguage()">English</button>
+          <button class="block-sign" id="themeButton" onclick="toggleTheme()">Switch topic</button>
+          <button class="block-sign" id="sign">Sign Up</button>
+          <button class="block-sign" id="aut">Authorization</button>
+          <span id="usernameDisplay" style="display: none;"></span>
+          <button class="block-sign" id="logout" style="display: none;">Logout</button>
+      </nav>
+  </div>
+</header>
+
+  <!-- <header>
     <img src="../images/Framemaven.png" alt="maven" class="logo" />
     <div class="burger-menu" id="burgerMenu">
       <span></span>
@@ -39,30 +86,30 @@
           <button class="block-sign" id="logout" style="display: none;">Logout</button>
       </nav>
   </div>
-  </header>
+  </header> -->
   <main>
     <div class="slide1">
-      <div class="text">The next generation of care for women and families</div>
+      <div class="text" id="text1">The next generation of care for women and families</div>
       <img src="../images/Group 112345.png" alt="pic" class="slide1picture" />
       <div class="textbox">
         <div class="frame1">
           <img src="../images/Framelupa.png" alt="lupa" style="padding-right: 1em" />
-          <p class="p1">I'd like to find out</p>
+          <p class="p1" id="p11">I'd like to find out</p>
         </div>
-        <div class="frame2">
+        <div class="frame2" id="frame22">
           what Maven will bring to your company
-          <button class="learn-more">Learn more</button>
+          <button class="learn-more" id="learn-more1">Learn more</button>
         </div>
       </div>
     </div>
     <div class="slide2">
       <div class="container">
-        <div class="first">
+        <div class="first" id="first1">
           Maven's <mark>pioneering</mark> virtual care model is built around
           women and families, delivering <mark>better</mark> outcomes and
           <mark>lower</mark> costs for everyone.
         </div>
-        <div class="second">
+        <div class="second" id="second1">
           We're setting a new standard of care for families across <br />
           geographies, cultures, and backgrounds.
         </div>
@@ -70,23 +117,23 @@
       <div class="container2">
         <div class="topic">
           <img src="../images/Grouptopic.png" alt="topic" class="topicpicture" />
-          <h1 class="container2h1">Whole-person care</h1>
-          <h2 class="container2h2">
+          <h1 class="container2h1" id="container2h11">Whole-person care</h1>
+          <h2 class="container2h2" id="container2h22" >
             A holistic approach that offers comprehensive care for all families.
           </h2>
         </div>
         <div class="topic">
           <img src="../images/Grouptopic2.png" alt="topic2" class="topicpicture" />
-          <h1 class="container2h1">Exceptional outcomes</h1>
-          <h2 class="container2h2">
+          <h1 class="container2h1" id="container2h13">Exceptional outcomes</h1>
+          <h2 class="container2h2" id="container2h14">
             Dedicated Care Advocates and data-driven insights deliver better
             outcomes.
           </h2>
         </div>
         <div class="topic">
           <img src="../images/Frametopic3.png" alt="topic2" class="topicpicture" />
-          <h1 class="container2h1">Lower costs</h1>
-          <h2 class="container2h2">
+          <h1 class="container2h1" id="container2h15">Lower costs</h1>
+          <h2 class="container2h2" id="container2h16">
             Proactive intervention reduces the need for costly procedures.
           </h2>
         </div>
@@ -95,7 +142,7 @@
     <div class="slide3">
       <div class="grid-container">
         <div class="grid-item"></div>
-        <div class="grid-item">On-demand, ongoing care that changes lives</div>
+        <div class="grid-item" id="grid-item1">On-demand, ongoing care that changes lives</div>
         <div class="grid-item"></div>
       </div>
       <img
@@ -104,16 +151,16 @@
         style="margin-left: 14%; margin-top: 3em; z-index: 1"
       />
       <div class="box">
-        <p class="para1 pmargin">
+        <p class="para1 pmargin" id="para1 pmargin1">
           Shayna was hoping for a perfect pregnancy, but a preeclampsia
           diagnosis put her at risk of complications.
         </p>
-        <p class="para2 pmargin">
+        <p class="para2 pmargin" id="para2 pmargin1">
           Maven connected her with a high-risk OB-GYN to help navigate her
           preeclampsia, and a certified doula helped create a birth plan to ease
           Shayna’s anxiety.
         </p>
-        <p class="para3 pmargin">1 of 4</p>
+        <p class="para3 pmargin" id="para3 pmargin1">1 of 4</p>
       </div>
       <div class="changer">
         <img src="../images/changer.png" alt="changer" />
@@ -123,12 +170,12 @@
       <img src="../images/VectorPICTURE.png" alt="picture" class="figure2" />
       <div class="slide4box">
         <div class="slide4textbox">
-          <h1 class="H1">
+          <h1 class="H1" id="H11">
             Lowering healthcare<br />
             costs by raising the bar
           </h1>
 
-          <h2 class="H2">
+          <h2 class="H2" id="H21">
             Ongoing assessments, proactive check-ins, and human touchpoints
             drive industry-leading engagement, helping members identify risks
             early and prevent costly complications.
@@ -139,23 +186,23 @@
       <div class="statistics">
         <div class="stat">
           <h1>2:1</h1>
-          <h2>clinical return on investment</h2>
+          <h2 id="h21">clinical return on investment</h2>
         </div>
         <div class="stat" style="margin-left: 7em">
           <h1>4:1</h1>
-          <h2>business return on investment</h2>
+          <h2 id="h22">business return on investment</h2>
         </div>
         <div class="stat" style="margin-left: 7em">
           <h1>20%</h1>
-          <h2>lower C-section rates</h2>
+          <h2 id="h23">lower C-section rates</h2>
         </div>
         <div class="stat" style="margin-left: 7em">
           <h1>32%</h1>
-          <h2>lower NICU <br />admission rates</h2>
+          <h2 id="h24">lower NICU <br />admission rates</h2>
         </div>
         <div class="stat" style="margin-left: 7em">
           <h1>36%</h1>
-          <h2>
+          <h2 id="h25">
             avoid an ER or<br />
             doctor’s appointment
           </h2>
@@ -164,10 +211,10 @@
     </div>
     <div class="slide5">
       <div class="slide5box1">
-        <h1 class="slide5box1h1">
+        <h1 class="slide5box1h1" id="slide5box1h11">
           Whole-person care that covers the entire family journey
         </h1>
-        <h2 class="slide5box1h2">
+        <h2 class="slide5box1h2" id="slide5box1h21">
           Maven offers comprehensive care for everyone planning,
 
           <br />starting, and raising a family. We harness the best of
@@ -177,8 +224,8 @@
       <div class="slide5box2">
         <div class="photo">
           <img src="../images/Framesymbol1.png" alt="symbol" />
-          <h1 class="photoh1">A dedicated Care Advocate</h1>
-          <h2 class="photoh2">for every member</h2>
+          <h1 class="photoh1" id="photoh11">A dedicated Care Advocate</h1>
+          <h2 class="photoh2" id="photoh21">for every member</h2>
           <img
             src="../images/Rectanglephoto1.png"
             alt="photo"
@@ -188,8 +235,8 @@
         </div>
         <div class="photo">
           <img src="../images/Framesymbol2.png" alt="symbol" />
-          <h1 class="photoh1">On-demand appointments</h1>
-          <h2 class="photoh2">with specialized providers</h2>
+          <h1 class="photoh1" id="photoh12">On-demand appointments</h1>
+          <h2 class="photoh2" id="photoh22">with specialized providers</h2>
           <img
             src="../images/Rectanglephoto2.png"
             alt="photo"
@@ -199,8 +246,8 @@
         </div>
         <div class="photo">
           <img src="../images/Framesumbol3.png" alt="symbol" />
-          <h1 class="photoh1">Proactive interventions</h1>
-          <h2 class="photoh2">that lead to effective care</h2>
+          <h1 class="photoh1" id="photoh13">Proactive interventions</h1>
+          <h2 class="photoh2" id="photoh23">that lead to effective care</h2>
           <img
             src="../images/Rectanglephoto3.png"
             alt="photo"
@@ -210,8 +257,8 @@
         </div>
         <div class="photo">
           <img src="../images/Framesymbol4.png" alt="symbol" />
-          <h1 class="photoh1">Personalized content</h1>
-          <h2 class="photoh2">curated for each member</h2>
+          <h1 class="photoh1" id="photoh14">Personalized content</h1>
+          <h2 class="photoh2" id="photoh24">curated for each member</h2>
           <img
             src="../images/Rectanglephoto4.png"
             alt="photo"
@@ -224,11 +271,11 @@
     <div class="slide6">
       <div class="slide6box">
         <div class="slide6p1">
-          <h1 class="slide6p1h1">
+          <h1 class="slide6p1h1" id="slide6p1h11">
             Find out what partnering with<br />
             Maven can do for you
           </h1>
-          <h2 class="slide6p1h2">
+          <h2 class="slide6p1h2" id="slide6p1h21">
             Maven works with you to offer a new kind of care to women<br />
             and families everywhere.
           </h2>
@@ -236,24 +283,24 @@
         <div class="slide6container">
           <div class="containerbox">
             <img src="../images/Groupznachok1.png" alt="znachok" />
-            <h1 class="containerboxh1">For Employers</h1>
-            <h2 class="containerboxh2">
+            <h1 class="containerboxh1" id="containerboxh11">For Employers</h1>
+            <h2 class="containerboxh2" id="containerboxh21">
               Give employees the care they need and an<br />
               inclusive benefit they’ll love.
             </h2>
           </div>
           <div class="containerbox">
             <img src="../images/Groupznachok2.png" alt="znachok" />
-            <h1 class="containerboxh1">For Health Plans</h1>
-            <h2 class="containerboxh2">
+            <h1 class="containerboxh1" id="containerboxh12">For Health Plans</h1>
+            <h2 class="containerboxh2" id="containerboxh22">
               We don’t compete with traditional<br />health plans—we complement
               them.
             </h2>
           </div>
           <div class="containerbox">
             <img src="../images/Groupznachok3.png" alt="znachok" />
-            <h1 class="containerboxh1">For Consultants</h1>
-            <h2 class="containerboxh2">
+            <h1 class="containerboxh1" id="containerboxh13">For Consultants</h1>
+            <h2 class="containerboxh2" id="containerboxh23">
               Find out why Maven is the leading<br />
               family benefit that your clients need.
             </h2>
@@ -277,15 +324,15 @@
           style="position: relative; left: 15.5em; bottom: 17em; z-index: 1"
           class="krug"
         />
-        <p class="greentext">what clients say about maven</p>
-        <p class="pfirst">
+        <p class="greentext" id="greentext1">what clients say about maven</p>
+        <p class="pfirst" id="pfirst1">
           “Our employees are so very appreciative of this<br />
           program. I’ve had people call me and say, “I couldn’t<br />
           have come back to work without the support through<br />
           Maven and SoFi.”
         </p>
-        <p class="psecond">Debbie Westover, Senior Benefits Manager at SoFi</p>
-        <p class="pthird">Read the case study</p>
+        <p class="psecond" id="psecond1">Debbie Westover, Senior Benefits Manager at SoFi</p>
+        <p class="pthird" id="pthird1">Read the case study</p>
         <div class="knopki" style="margin-top: 2em">
           <img src="../images/Frameleft.png" alt="knopka" style="margin-right: 1em" />
           <img src="../images/Frameright.png" alt="knopka" />
@@ -294,7 +341,7 @@
       </div>
     </div>
     <div class="featuredin">
-      <div class="featured-in-paragraph">featured in</div>
+      <div class="featured-in-paragraph" id="featured-in-paragraph1">featured in</div>
       <div class="companies">
         <div class="company"><img src="../images/Framecompany1.png" alt="company" /></div>
         <div class="company"><img src="../images/Framecompany2.png" alt="company" /></div>
@@ -308,8 +355,8 @@
         <div class="photo-and-paragraph">
           <img src="../images/Frameslide7p1.png" alt="photo" style="margin-right: 2em" />
           <div class="paragraph">
-            <h1 class="slide7h1">The Maven Foundation</h1>
-            <h2 class="slide7h2">
+            <h1 class="slide7h1" id="slide7h11">The Maven Foundation</h1>
+            <h2 class="slide7h2" id="slide7h22">
               We believe that all women and families deserve access to great<br />
               healthcare. Established alongside Maven in 2015, the Maven<br />
               Foundation is supported by a donor-advised fund, and partners<br />
@@ -319,7 +366,7 @@
             </h2>
           </div>
         </div>
-        <p class="ourawards">our awards</p>
+        <p class="ourawards" id="ourawards1">our awards</p>
         <div class="awards">
           <img src="../images/Rectangleaward1.png" alt="reward" />
           <img src="../images/Rectangleaward2.png" alt="reward" />
@@ -346,6 +393,7 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
+        <script src="style.js"></script>
         <script src="test.js"></script>
         <div class="finally">
           <img
@@ -355,55 +403,68 @@
           />
           <div class="finally-paragraph-box">
             <div class="finally-paragraph">
-              <h1 class="slide7h1">Ready to get started with Maven?</h1>
-              <h2 class="slide7h2">
+              <h1 class="slide7h1" id="slide7h11">Ready to get started with Maven?</h1>
+              <h2 class="slide7h2" id="slide7h22">
                 Tell us which describes you, and we’ll get in<br />
                 touch with next steps.
               </h2>
-              <p class="whichbest">Which best describes you</p>
-              <button class="get-started">Get Started</button>
+              <p class="whichbest" id="whichbest1">Which best describes you</p>
+              <button class="get-started" id="get-started1">Get Started</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </main>
+  <div id="mapModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="map"></div>
+    </div>
+  </div>
   <footer>
     <div class="footer-container1">
       <div class="for-business">
-        <h1 class="footer-h1">For Business</h1>
-        <h2 class="footer-h2">Employers</h2>
-        <h2 class="footer-h2">Health plans</h2>
-        <h2 class="footer-h2">Consultants</h2>
+        <h1 class="footer-h1" id="footer-h11">For Business</h1>
+        <h2 class="footer-h2" id="footer-h21">Employers</h2>
+        <h2 class="footer-h2" id="footer-h22">Health plans</h2>
+        <h2 class="footer-h2" id="footer-h23">Consultants</h2>
       </div>
       <div class="join-maven">
-        <h1 class="footer-h1">Join Maven</h1>
-        <h2 class="footer-h2">Individuals</h2>
-        <h2 class="footer-h2">Become a Maven Provider</h2>
-        <h2 class="footer-h2">Join Our Community</h2>
+        <h1 class="footer-h1" id="footer-h12">Join Maven</h1>
+        <h2 class="footer-h2" id="footer-h24">Individuals</h2>
+        <h2 class="footer-h2" id="footer-h25">Become a Maven Provider</h2>
+        <h2 class="footer-h2" id="footer-h26">Join Our Community</h2>
       </div>
       <div class="resourses">
-        <h1 class="footer-h1">Resourses</h1>
-        <h2 class="footer-h2">Resourse Center</h2>
-        <h2 class="footer-h2">Blog</h2>
-        <h2 class="footer-h2">COVID-19</h2>
+        <h1 class="footer-h1" id="footer-h13">Resourses</h1>
+        <h2 class="footer-h2" id="footer-h27">Resourse Center</h2>
+        <h2 class="footer-h2" id="footer-h28">Blog</h2>
+        <h2 class="footer-h2" id="footer-h29">COVID-19</h2>
       </div>
       <div class="footer-company">
-        <h1 class="footer-h1">Company</h1>
-        <h2 class="footer-h2">About</h2>
-        <h2 class="footer-h2">Press</h2>
-        <h2 class="footer-h2">Careers</h2>
-        <h2 class="footer-h2">Contact</h2>
+        <h1 class="footer-h1" id="footer-h14">Company</h1>
+        <h2 class="footer-h2" id="footer-h30">About</h2>
+        <h2 class="footer-h2" id="footer-h31">Press</h2>
+        <h2 class="footer-h2" id="footer-h32">Careers</h2>
+        <h2 class="footer-h2" id="footer-h33">Contact</h2>
       </div>
       <div class="we-are-hiring">
         <img src="../images/Framehiring.png" alt="pic" />
       </div>
       <div class="find-us-on">
-        <h1 class="footer-h1">Find us on</h1>
+        <h1 class="footer-h1" id="footer-h34">Find us on</h1>
         <img src="../images/Framecontacts.png" alt="contacts" style="margin-top: 0.5em" />
         <img src="../images/Frameappstore.png" alt="contacts" style="margin-top: 1.5em" />
         <img src="../images/Framegoogle.png" alt="contacts" style="margin-top: 0.5em" />
       </div>
     </div>
   </footer>
+  <script src="style.js"></script>
+<script src="imgslider.js"></script>
+<script src="../general/burger.js"></script>
+<script src="tema.js"></script>
+<script src="map.js"></script>
+<script src="../general/scripts.js"></script>
+<script src="../general/transition.js"></script>
 </body>

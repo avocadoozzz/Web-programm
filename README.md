@@ -1,2 +1,2 @@
 # Web-programm
-https://avocadoozzz/Web-programm/blob/main/cursach/cursach_work.html
+https://avocadoozzz/Web-programm/cursach/cursach_work.html
