@@ -28,4 +28,9 @@ if (localStorage.getItem('body-theme') === 'dark')
     }
     else{
       body.classList.remove("dark");
-    }
+    };
+  
+  
+    document.getElementById('burgerMenu').addEventListener('click', function() {
+    this.classList.toggle('active');
+    document.querySelector('.header-block1').classList.toggle('active');});
