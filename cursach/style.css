@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: auto;
-  background-color: #FAF5E5; 
+  background-color: #ffffff; 
   color: #000;
 }
 body.dark {
@@ -897,6 +897,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  
+  background-color: #ffffff; 
 }
 
 header {
@@ -1477,15 +1479,14 @@ color: #00856f;
   /* text-align: center; */
   text-transform: uppercase;
   color: #64726f;
-  margin-left: 5em;
 }
 element.style {
   width: 320px;
 }
-  .slide6pic {
-    width: 320px;
-    margin-top: 10em;
-  }
+.slide6pic {
+  width: 320px;
+  margin-top: 0em;
+}
   element.style {
     height: 1400px;
 }
@@ -1578,4 +1579,9 @@ element.style {
             /* align-items: center; */
             margin-right: 100px;
         }
+        .featuredin {
+          height: 16em;
+          opacity: 1;
+          margin-top: 5em;
+      }
 }
