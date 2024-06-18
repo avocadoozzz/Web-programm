@@ -1227,7 +1227,15 @@ element.style {
     height: 2px;
     background-color: black;
 }
+.header-block1.active {
+  display: none;
+}
   .header-nav {
+    /* left: 0px;
+right: 0px;
+width: 310px;
+height: 300px;
+margin-left: 0px; */
     width: 25%;
     height: 30%;
     /* flex-direction: column; */
