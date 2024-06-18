@@ -10,9 +10,9 @@ body.dark {
     color: #fff;
   }
   body.dark footer {
-    background-color: #191b79; 
+    background-color: #1a0e09bb;
     color: #fff;
-  }
+}
 header{
     background-image: url("../images/Frameslide7p1.png");
     width: 100%;
@@ -150,7 +150,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    background-color: #4f58b9;
+    background-color: #78cdcf;
     padding-bottom: 6px;
     width: 100%;
     text-decoration-color: #FFFFFF;
@@ -275,21 +275,20 @@ body.dark .imgfooter{
         transition: all 0.3s ease-in-out;
       }
       
-      .header-block1 {
+      .header-block1.open {
+        display: block;
+    }
+    .header-block1 {
         display: none;
         position: fixed;
-        top: 0;
-        right: 0;
+        top: 6em;
+        right: 9em;
         width: 250px;
         height: auto;
         background-color: #fff;
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
-        z-index: 999; 
-      }
-      
-      .header-block1.open {
-        display: block;
-      }
+        z-index: 999;
+    }
       
       .header-nav {
         display: flex;
@@ -338,8 +337,121 @@ body.dark .imgfooter{
         display: none;
     }
 }
-@media (max-width: 340px) {
-    .Employers{
+@media (max-width: 320px) {
+    .header-block1.open {
+        display: block;
+        margin-right: -8em;
+        border-radius: 8px;
+    }
+    .header-block1 {
+        display: none;
+        position: fixed;
+        top: 6em;
+        right: 9em;
+        width: 250px;
+        height: auto;
+        background-color: #fff;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+    .Employers {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 10px;
         width: 290px;
     }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .img.VRACH1.png{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH2{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH3{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH4{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH5{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH6{
+            width: 290px;
+    }
+    element.style {
+        width: 290px;
+    }
+    .nametext {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 0em;
+    }
+    .VRACH7{
+            width: 290px;
+    }
+    img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        width: 290px;
+    }
+    
 }
