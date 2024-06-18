@@ -1,1 +1,1 @@
- https://avocadoozzz.github.io/gh-pages/cv
+ https://avocadoozzz.github.io/Web-programm/cursach/cursach_work.html
