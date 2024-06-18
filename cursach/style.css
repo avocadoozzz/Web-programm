@@ -120,9 +120,6 @@ a {
   text-decoration: none;
   color:black;
 }
-html{
-  width: browser;
-}
 header {
   display: flex;
   justify-content: flex-start;
@@ -515,11 +512,12 @@ mark {
   color: #64726f;
 }
 .slide5box2 {
-  width: 93em;
-  margin: 1em auto;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 8em;
+  margin-right: 0px;
+    width: 93em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8em;
 }
 .photo {
   text-align: center;
