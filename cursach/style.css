@@ -43,9 +43,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .slide1picture {
+  right: 0px;
     bottom: 29%;
-    left: 54.5%;
+    left: 50.5%;
     position: relative;
     z-index: 1;
 }
