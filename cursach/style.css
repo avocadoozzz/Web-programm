@@ -43,6 +43,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .slide1picture {
   right: 0px;
     bottom: 29%;
@@ -118,9 +119,6 @@ body.dark .header-nav a{
 a {
   text-decoration: none;
   color:black;
-}
-html{
-  width: browser;
 }
 header {
   display: flex;
@@ -514,11 +512,12 @@ mark {
   color: #64726f;
 }
 .slide5box2 {
-  width: 93em;
-  margin: 1em auto;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 8em;
+  margin-right: 0px;
+    width: 93em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8em;
 }
 .photo {
   text-align: center;
