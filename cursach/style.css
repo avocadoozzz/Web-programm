@@ -978,7 +978,6 @@ transform: rotate(45deg) translate(0,50%);
   position: fixed;
   top: 44px;
   bottom: 0;
-  left: 8.5em;
   right: 0;
   z-index: 50;
   overflow-y: auto;
@@ -1088,15 +1087,16 @@ element.style {
     margin-left: -3em;
 }s
 
+
 element.style {
-  width: 740px;
+  width: 750px;
+  margin-right: 0px;
 }
-  .slide4box {
-      height: 19.5em;
-      border-bottom: 1px solid lightgray;
-      margin: -4em auto;
-      margin-left: 5em;
-  }
+.slide4box {
+  height: 19.5em;
+  border-bottom: 1px solid lightgray;
+  margin: -4em auto;
+}
   .H1 br {
     display: none;
   }
@@ -1119,10 +1119,9 @@ element.style {
     margin: 0em;
     padding-top: 0em;
   }
-  element.style {
-    width: 768px;
-}
+
     .slide5box2 {
+      width: 768px;
         margin: 4em auto;
         justify-content: space-evenly;
         /* margin-left: -5.5em; */
