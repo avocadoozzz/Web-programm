@@ -18,6 +18,8 @@ body {
     margin-bottom: 15px;
     padding: 10px;
     width: 100%;
+      box-sizing: border-box; /* Границы и padding не будут влиять на ширину */
+    font-size: 16px; /* Одинаковый размер шрифта */
   }
 
 input:focus, select:focus, button:focus {
