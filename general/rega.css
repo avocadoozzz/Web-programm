@@ -19,7 +19,12 @@ body {
     padding: 10px;
     width: 100%;
   }
-  
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
   #manualPasswordFields {
     display: none;
   }
@@ -27,7 +32,10 @@ body {
   button {
     padding: 10px 20px;
   }
-  
+
+  button:hover {
+    background-color: #0056b3;
+}
   #message {
     max-width: 400px;
     margin: 20px auto;
@@ -42,3 +50,23 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#autoPasswordFields {
+    display: none;
+}
+
+#nickname {
+    margin-bottom: 15px;
+}
