@@ -71,14 +71,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Обработка генерации пароля
+   // Обработка нажатия на кнопку генерации пароля
     if (generatePasswordButton) {
         generatePasswordButton.addEventListener('click', () => {
-            const generatedPassword = generatePassword();
-            generatedPasswordInput.value = generatedPassword;
+            const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()";
+            let generatedPassword = '';
+            for (let i = 0; i < 12; i++) {
+                const randomIndex = Math.floor(Math.random() * charset.length);
+                generatedPassword += charset[randomIndex];
+            }
+            generatedPasswordInput.value = generatedPassword; // Отобразить сгенерированный пароль
         });
     }
-
+    
     // Обработка генерации никнейма
     if (generateNicknameButton) {
         generateNicknameButton.addEventListener('click', () => {
