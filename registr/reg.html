@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
   <link rel="stylesheet" href="../general/rega.css">
+  <style>
+        /* Стили для скрытия и показа элементов */
+        #manualPasswordFields, #autoPasswordFields {
+            display: none;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
 <body>
   <a class="ah1" href="../cursach/cursach_work.html">Register</a>
@@ -29,6 +38,11 @@
       <input type="password" id="password">
       <input type="password" id="confirmPassword">
     </div>
+    <!-- Поля для автогенерации пароля -->
+        <div id="autoPasswordFields">
+            <button type="button" id="generatePasswordButton">Generate Password</button>
+            <input type="text" id="generatedPassword" readonly>
+        </div>
     <label for="role">Role:</label>
     <select id="role">
       <option value="user">User</option>
