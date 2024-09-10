@@ -929,8 +929,6 @@ transform: rotate(45deg) translate(0,50%);
         margin-left: 0em;
 }
 .burger-menu {
-  width: 30px;
-  height: 21px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
